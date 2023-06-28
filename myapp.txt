@@ -1,0 +1,25 @@
+myapp
+    AddCandidatoCommand.js
+    AddTelefoneCommand.js
+controllers
+    CandidatoController.js
+    CandidatoFacade.js
+dao
+    CandidatoDAO.js
+    TelefoneDAO.js
+helpers
+    CandidatoViewHelper.js
+models
+    Candidato.js
+    Telefone.js
+    validators.js
+public
+    views
+        cadastrar.html
+        index.html
+        pesquisar.html
+        resultado.html
+    style.css
+routes
+    candidatoRoutes.js
+server.js

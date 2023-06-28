@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Candidato</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <h1>Cadastrar Candidato</h1>
+    <form id="cadastrarForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="filiacao">Filiação:</label>
+        <input type="text" id="filiacao" name="filiacao" required>
+        <label for="curso">Curso Matriculado:</label>
+        <input type="text" id="curso" name="curso" required>
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" id="logradouro" name="logradouro" required>
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" required>
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero" required>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required>
+        <label for="telefone1">Telefone 1:</label>
+        <input type="text" id="telefone1" name="telefone1" required>
+        <label for="tipoTelefone1">Tipo de Telefone 1:</label>
+        <select id="tipoTelefone1" name="tipoTelefone1">
+            <option value="residencial">Residencial</option>
+            <option value="celular">Celular</option>
+            <option value="contato">Contato</option>
+        </select>
+        <label for="telefone2">Telefone 2:</label>
+        <input type="text" id="telefone2" name="telefone2">
+        <label for="tipoTelefone2">Tipo de Telefone 2:</label>
+        <select id="tipoTelefone2" name="tipoTelefone2">
+            <option value="residencial">Residencial</option>
+            <option value="celular">Celular</option>
+            <option value="contato">Contato</option>
+        </select>
+        <label for="telefone3">Telefone 3:</label>
+        <input type="text" id="telefone3" name="telefone3">
+        <label for="tipoTelefone3">Tipo de Telefone 3:</label>
+        <select id="tipoTelefone3" name="tipoTelefone3">
+            <option value="residencial">Residencial</option>
+            <option value="celular">Celular</option>
+            <option value="contato">Contato</option>
+        </select>
+        <input type="submit" value="Cadastrar">
+    </form>
+
+    <script src="../cadastrar.js"></script>
+</body>
+</html>
